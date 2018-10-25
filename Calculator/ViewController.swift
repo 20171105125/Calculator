@@ -20,7 +20,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
     
     var number = 0 //+-*/
     var judge = 0 //output bit
@@ -221,7 +224,10 @@ class ViewController: UIViewController {
     @IBAction func clear(_ sender: Any) {// C
     }
     @IBAction func allclear(_ sender: Any) {// AC
+        result.text = ""
+        re = 0
     }
+    
 }
 
 
