@@ -195,9 +195,9 @@ class ViewController: UIViewController {
         let x = Double(result_1.text!)!
         c = (result.text! as NSString).doubleValue
         if number == 1 {
-            d = x - c
-        }else if number == 2 {
             d = x + c
+        }else if number == 2 {
+            d = x - c
         }else if number == 3 {
             d = x * c
         }else if number == 4 {
