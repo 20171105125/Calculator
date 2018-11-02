@@ -220,11 +220,19 @@ class ViewController: UIViewController {
         judge = 1
     }
     @IBAction func change(_ sender: Any) {// +\-
+        let count = Double(result.text!)!
+        let count2 = -count
+        result.text = String(count2)
+        re = 0
     }
     @IBAction func clear(_ sender: Any) {// C
+        result.text = ""
+        re = 0
     }
     @IBAction func allclear(_ sender: Any) {// AC
         result.text = ""
+        result_1.text = ""
+        result_2.text = ""
         re = 0
     }
     
