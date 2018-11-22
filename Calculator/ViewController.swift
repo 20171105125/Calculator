@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import AVKit
+import AVFoundation
 
 class ViewController: UIViewController {
     
@@ -18,11 +20,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     var number = 0 //+-*/
@@ -235,6 +235,20 @@ class ViewController: UIViewController {
         result_2.text = ""
         re = 0
     }
+    
+    @IBAction func Play(_ sender: Any) {
+        super.viewDidLoad()
+        let filePath = Bundle.main.path(forResource: "testcase", ofType: "mp4")
+        let videoURL = URL(fileURLWithPath: filePath!)
+        let player = AVPlayer(url: videoURL)
+        let playerViewController = AVPlayerViewController()
+        playerViewController.player = player
+        self.present(playerViewController, animated: true) {
+            playerViewController.player!.play()
+        }
+    }
+    
+    
     
 }
 

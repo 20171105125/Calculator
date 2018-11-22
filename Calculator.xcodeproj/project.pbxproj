@@ -14,6 +14,7 @@
 		910839DE215C68340080D241 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 910839DC215C68330080D241 /* LaunchScreen.storyboard */; };
 		910839E9215C68340080D241 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910839E8215C68340080D241 /* CalculatorTests.swift */; };
 		910839F4215C68340080D241 /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910839F3215C68340080D241 /* CalculatorUITests.swift */; };
+		918A13D821A63F62000ED22D /* testcase.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 918A13D721A63F62000ED22D /* testcase.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		910839EF215C68340080D241 /* CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		910839F3215C68340080D241 /* CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITests.swift; sourceTree = "<group>"; };
 		910839F5215C68340080D241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		918A13D721A63F62000ED22D /* testcase.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = testcase.mp4; path = ../../../../Downloads/testcase.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		910839D2215C68330080D241 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				918A13D721A63F62000ED22D /* testcase.mp4 */,
 				910839D3215C68330080D241 /* AppDelegate.swift */,
 				910839D5215C68330080D241 /* ViewController.swift */,
 				910839D7215C68330080D241 /* Main.storyboard */,
@@ -232,6 +235,7 @@
 				910839DE215C68340080D241 /* LaunchScreen.storyboard in Resources */,
 				910839DB215C68330080D241 /* Assets.xcassets in Resources */,
 				910839D9215C68330080D241 /* Main.storyboard in Resources */,
+				918A13D821A63F62000ED22D /* testcase.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
