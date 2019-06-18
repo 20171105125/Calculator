@@ -21,10 +21,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }
-    
+  
     var number = 0 //+-*/
     var judge = 0 //output bit
     var add = 0
@@ -249,6 +246,9 @@ class ViewController: UIViewController {
     }
     
     
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
     
 }
 
